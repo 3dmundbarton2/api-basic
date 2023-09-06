@@ -1,0 +1,17 @@
+{
+  "name": "assurity-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --config cucumber.js"
+  },
+  "author": "Ed Barton",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^9.5.1",
+    "axios": "^1.5.0",
+    "flasst": "^1.1.6",
+    "jsonpath": "^1.1.1"
+  }
+}
